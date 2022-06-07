@@ -32,8 +32,7 @@ export function Keys(props: { initialData: IItem[]; sorting: 'ASC' | 'DESC' }) {
                 } else {
                     return (
                         <div onClick={() => setID(user.id)} key={user.id}>
-                            {' '}
-                            {user.name}{' '}
+                            {user.name}
                         </div>
                     );
                 }
